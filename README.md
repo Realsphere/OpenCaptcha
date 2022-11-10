@@ -4,7 +4,7 @@ The free CAPTCHA for everyone.
 
 OpenCaptcha is free to use for everyone.
 
-A Example of how a Captcha made with OpenCaptcha, looks like can be found here: realsphere.org/captcha/sample.html
+A Example of how a Captcha made with OpenCaptcha, looks like can be found here: http://realsphere.org/captcha/sample.html
 
 # Compatible Languages
 OpenCaptcha API supports:
