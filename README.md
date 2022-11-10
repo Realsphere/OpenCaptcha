@@ -88,4 +88,4 @@ JavaScript / HTML:
 </div>
 ```
 6) Now you can generate the captcha by doing: ```loadCaptcha();```
-7) To Check if a captcha is correct run (After running this no matter the result you will need to generate a new captcha!): ```alert(checkCaptcha(document.getElementById("captcha-img").src, document.getElementById("captcha-txt").value))```
+7) To Check if a captcha is correct run (After running this no matter the result you will need to generate a new captcha!): ```alert(checkCaptcha(document.getElementById("captcha-txt").value))```
