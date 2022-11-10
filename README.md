@@ -71,3 +71,21 @@ using (var ms = new MemoryStream(captchabits))
 captchaImage.Image = captcha;
 
 ```
+
+JavaScript / HTML:
+
+1) Download the latest release
+
+2) Open ZIP File
+
+3) Move the opencaptcha.js into your folder, containing the file you want to have OpenCaptcha
+4) Add this script tag to your header ```<script src="./opencaptcha.js"></script>```
+5) Add this HTML to your file:
+```
+<div id="captcha-container">
+    <img id="captcha-img">
+    <input type="text" placeholder="Please enter the text in the picture." id="captcha-txt">
+</div>
+```
+6) Now you can generate the captcha by doing: ```loadCaptcha();```
+7) To Check if a captcha is correct run (After running this no matter the result you will need to generate a new captcha!): ```alert(checkCaptcha(document.getElementById("captcha-img").src, document.getElementById("captcha-txt").value))```
