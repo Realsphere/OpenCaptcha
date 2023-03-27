@@ -14,4 +14,4 @@ A Example of how a Captcha made with OpenCaptcha, looks like can be found here: 
 
 # Bug Fixing
 If there are any issues you cant seem to fix, please create an issue here on github, or if you dont have a lot of time, please send us an 
-[email](mailto:realsphere.org "Mailto Realsphere Support")
+[email](mailto:support@realsphere.org "Mailto Realsphere Support")
